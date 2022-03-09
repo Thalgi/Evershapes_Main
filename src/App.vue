@@ -1,6 +1,8 @@
 <script setup>
+import Navbar from "./components/Navbar.vue";
 import HelloWorld from "./components/HelloWorld.vue";
 import TheWelcome from "./components/TheWelcome.vue";
+import Navbar1 from "./components/Navbar.vue";
 </script>
 
 <template>
@@ -14,7 +16,7 @@ import TheWelcome from "./components/TheWelcome.vue";
     />
 
     <div class="wrapper">
-      <HelloWorld msg="vite" />
+      <Navbar/>
     </div>
   </header>
 
