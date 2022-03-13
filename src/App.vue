@@ -1,27 +1,12 @@
 <script setup>
-import Navbar from "./components/Navbar.vue";
 import HelloWorld from "./components/HelloWorld.vue";
 import TheWelcome from "./components/TheWelcome.vue";
-import Navbar1 from "./components/Navbar.vue";
+import WalletConnexion from "./components/WalletConnexion.vue";
 </script>
 
 <template>
-  <header>
-    <img
-      alt="Vue logo"
-      class="logo"
-      src="./assets/logo.svg"
-      width="125"
-      height="125"
-    />
-
-    <div class="wrapper">
-      <Navbar/>
-    </div>
-  </header>
-
   <main>
-    <TheWelcome />
+    <WalletConnexion />
   </main>
 </template>
 
